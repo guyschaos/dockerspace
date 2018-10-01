@@ -1,4 +1,4 @@
-FROM alpine
+FROM debian
 ARG VERSION=1.3.0a
 RUN mkdir /gf && cd /gf && \
     wget https://github.com/coyove/goflyway/releases/download/${VERSION}/goflyway_linux_amd64.tar.gz && \
